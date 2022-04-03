@@ -17,7 +17,7 @@ const Home = () => {
                 keyExtractor = {(item) => item.id}
                 showsHorizontalScrollIndicator = {false}
                 ListHeaderComponent = {<HomeHeader/>}
-                numColumns = {2}
+                // numColumns = {2}
                 
                 />
             </View>
