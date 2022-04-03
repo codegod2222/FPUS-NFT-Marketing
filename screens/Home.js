@@ -15,6 +15,8 @@ const Home = () => {
                 data = {NFTData}
                 renderItem = {({item}) => <NFTCard data={item.name}/>}
                 keyExtractor = {(item) => item.id}
+                showsHorizontalScrollIndicator = {false}
+                ListHeaderComponent = {<HomeHeader/>}
                 numColumns = {2}
                 
                 />
