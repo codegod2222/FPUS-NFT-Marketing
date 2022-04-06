@@ -1,6 +1,6 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import { SIZES } from '../constants'
+import { SIZES, FONTS, COLORS, SHADOWS, assets} from '../constants'
 
 export const NFTTitle = () => {
   return (
